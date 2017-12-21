@@ -14,6 +14,7 @@ class MetaFiles(models.Model):
         mergedfile = []
         oldfiles = []
         for entry in os.scandir(path):
+            print("Processing " + entry.name + "...")
             path = os.path.join(settings.BASE_DIR, 'table/metafiles/',entry.name)
             fs = open(path,'r')
             try:
