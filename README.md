@@ -20,4 +20,4 @@ Where to drop meta-files:
  1. skip invalid meta-files (invalid json format)
  
  
- ![alt text](https://github.com/daphne0029/django_project/blob/master/project.jpg)
+ ![alt text](https://github.com/daphne0029/django_project/blob/master/project.JPG)
