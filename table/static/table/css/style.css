@@ -1,0 +1,75 @@
+body{
+
+}
+.reload-button {
+    display: inline-block;
+    margin-left: 200px;
+}
+.reload-alert {
+    display: inline-block;
+    margin-left: 30px;
+    color: gray;
+}
+.selectlable {
+    display: inline-block;
+    margin: 10px;
+}
+.table  {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+}
+.table .header {
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 12px;
+    display: table-row;
+    padding-bottom: 12px;
+    background-color: #6495ED;
+}
+.table .header .col {
+    cursor: pointer;
+}
+.table .col {
+    display: inline-block;
+    border: 1px solid #ddd;
+    text-align: left;
+    width: 150px;
+    padding: 2px 10px;
+    border-collapse: collapse;
+    border-spacing: 15px 50px;
+}
+.table .myrow {
+    display: table-row;
+}
+.table .col.col1 {
+    width: 200px;
+}
+.table .col.col2 {
+
+}
+.table .col.col3 {
+
+}
+.table .col.col4 {
+    word-wrap: break-word;
+    width: 200px;
+}
+.table .col.col5 {
+
+}
+.table .myrow:hover {background-color: FloralWhite ;}
+.malicious{
+  background-color : #ff3333;
+}
+.high-risk{
+  background-color : #ff751a;
+}
+.medium-risk{
+  background-color : #FFA500;
+}
+.low-risk{
+  background-color : #ffd11a;
+}
+.clean{
+  background-color : #33cc33;
+}

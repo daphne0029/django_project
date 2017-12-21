@@ -1,0 +1,38 @@
+[
+      {
+          "date": "Jan 1, 2015 13:10:59",
+          "filename": "virus.exe",
+          "action": "files-deleted",
+          "submit-type": "FG300B3910602113/root",
+          "rating": "malicious"
+      },
+      {
+          "date": "Nov 30, 2017 13:12:59",
+          "filename": "helper.exe",
+          "action": "files-added",
+          "submit-type": "FG300B3910602113/root",
+          "rating": "high-risk"
+      },
+      {
+          "date": "Dec 20, 2017 13:12:59",
+          "filename": "helper.exe",
+          "action": "files-added",
+          "submit-type": "FG300B3910602113/root",
+          "rating": "medium-risk"
+      },
+      {
+          "date": "Dec 16, 2017 13:12:59",
+          "filename": "helper.exe",
+          "action": "files-added",
+          "submit-type": "FG300B3910602113/root",
+          "rating": "low-risk"
+      },
+      {
+          "date": "Dec 20, 2017 06:12:59",
+          "filename": "helper.exe",
+          "action": "files-added",
+          "submit-type": "FG300B3910602113/root",
+          "rating": "clean"
+      }
+
+  ]

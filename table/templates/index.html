@@ -1,0 +1,24 @@
+{% load staticfiles %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href='{% static "table/css/style.css" %}'/>
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/cf07a56654.js"></script>
+<script type="text/javascript" src='{% static "table/js/table.js" %}'></script>
+
+
+
+<body>
+<div id="app_container"></div>
+</body>
+
+<script>
+$(document).ready(function(){
+  console.log('bootin');
+  myTableApp.boot({
+    appContainerId : "app_container",
+  });
+
+});
+
+
+</script>
